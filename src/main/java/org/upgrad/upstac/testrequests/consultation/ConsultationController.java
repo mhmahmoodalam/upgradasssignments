@@ -78,7 +78,6 @@ public class ConsultationController {
     // return the above created object
     // For reference check the method assignForLabTest() method from LabRequestController class
     try {
-      // replace this line of code with your implementation
 
       return testRequestUpdateService.assignForConsultation(
           id, userLoggedInService.getLoggedInUser());
